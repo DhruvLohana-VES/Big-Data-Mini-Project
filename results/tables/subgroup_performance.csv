@@ -1,0 +1,28 @@
+Subgroup,Sample Count,Task,Accuracy,Macro-F1,Precision,Recall,Strategy
+Overall,50,Sentiment,0.8,0.799,0.8333,0.8241,Zero-Shot
+Sarcastic Posts,5,Sentiment,0.4,0.1905,0.3333,0.1333,Zero-Shot
+Non-Sarcastic Posts,45,Sentiment,0.8444,0.8472,0.8772,0.863,Zero-Shot
+Script-Mixed Posts,4,Sentiment,0.75,0.6,0.6667,0.5556,Zero-Shot
+Pure-Script Posts,46,Sentiment,0.8043,0.8044,0.8389,0.8234,Zero-Shot
+Hinglish Language,18,Sentiment,0.6667,0.5969,0.6556,0.7677,Zero-Shot
+Marathi Language,24,Sentiment,0.8333,0.8263,0.8519,0.863,Zero-Shot
+Romanized Script,37,Sentiment,0.8378,0.8381,0.8556,0.8561,Zero-Shot
+Devanagari Script,9,Sentiment,0.6667,0.6794,0.8,0.7222,Zero-Shot
+Overall,50,Sentiment,0.82,0.8183,0.8571,0.8407,Few-Shot
+Sarcastic Posts,5,Sentiment,0.6,0.375,0.5,0.3,Few-Shot
+Non-Sarcastic Posts,45,Sentiment,0.8444,0.8472,0.8772,0.863,Few-Shot
+Script-Mixed Posts,4,Sentiment,0.75,0.6,0.6667,0.5556,Few-Shot
+Pure-Script Posts,46,Sentiment,0.8261,0.8262,0.8667,0.8409,Few-Shot
+Hinglish Language,18,Sentiment,0.7222,0.6426,0.7222,0.798,Few-Shot
+Marathi Language,24,Sentiment,0.8333,0.8263,0.8519,0.863,Few-Shot
+Romanized Script,37,Sentiment,0.8649,0.8655,0.8889,0.8769,Few-Shot
+Devanagari Script,9,Sentiment,0.6667,0.6794,0.8,0.7222,Few-Shot
+Overall,50,Sentiment,0.82,0.8183,0.8571,0.8407,Reasoning-Aware
+Sarcastic Posts,5,Sentiment,0.6,0.375,0.5,0.3,Reasoning-Aware
+Non-Sarcastic Posts,45,Sentiment,0.8444,0.8472,0.8772,0.863,Reasoning-Aware
+Script-Mixed Posts,4,Sentiment,0.75,0.6,0.6667,0.5556,Reasoning-Aware
+Pure-Script Posts,46,Sentiment,0.8261,0.8262,0.8667,0.8409,Reasoning-Aware
+Hinglish Language,18,Sentiment,0.7222,0.6426,0.7222,0.798,Reasoning-Aware
+Marathi Language,24,Sentiment,0.8333,0.8263,0.8519,0.863,Reasoning-Aware
+Romanized Script,37,Sentiment,0.8649,0.8655,0.8889,0.8769,Reasoning-Aware
+Devanagari Script,9,Sentiment,0.6667,0.6794,0.8,0.7222,Reasoning-Aware

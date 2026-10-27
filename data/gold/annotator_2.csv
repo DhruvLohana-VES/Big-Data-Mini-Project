@@ -1,0 +1,31 @@
+id,text,annotator_id,sentiment,toxicity,sarcasm,script_mixing,timestamp
+gold_001,"Bhai ye movie kya mast banayi hai superb direction #Bollywood",annotator_2,positive,non-toxic,false,false,2026-03-01 11:05:00
+gold_002,"Arre yaar service bohot ghatiya hai, total waste of money and time",annotator_2,negative,non-toxic,false,false,2026-03-01 11:06:00
+gold_003,"Today Indian cricket team match is scheduled at 7 PM IST",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:07:00
+gold_004,"Wah bhai wah, 3 ghante late flight aur bolte hain technical delay! Shabaash airlines!",annotator_2,negative,non-toxic,true,false,2026-03-01 11:08:00
+gold_005,"Yeh product quality toh expected se bhi achhi nikli, loved it!",annotator_2,positive,non-toxic,false,false,2026-03-01 11:09:00
+gold_006,"Tum jaise logon ko toh seedha ban karna chahiye social media se bloody losers",annotator_2,negative,toxic,false,false,2026-03-01 11:10:00
+gold_007,"Bohot hard performance diya aaj stage pe brother! Full power",annotator_2,positive,non-toxic,false,false,2026-03-01 11:11:00
+gold_008,"Metro construction ki wajah se pura traffic jam ho gaya hai morning mein",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:12:00
+gold_009,"Kya baat hai, itna ganda khana delivery kiya aur refund bhi nahi de rahe",annotator_2,negative,non-toxic,false,false,2026-03-01 11:13:00
+gold_010,"Super excited for the new college fest! Sab log zarur aana",annotator_2,positive,non-toxic,false,false,2026-03-01 11:14:00
+gold_011,"Abey chup kar pagal, kisi ko teri faltu advice ki zarurat nahi hai",annotator_2,negative,toxic,false,false,2026-03-01 11:15:00
+gold_012,"Weather is quite cloudy today in Pune, might rain in evening",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:16:00
+gold_013,"Yeh naya update bohot smooth chal raha hai phone pe",annotator_2,positive,non-toxic,false,false,2026-03-01 11:17:00
+gold_014,"Great initiative by municipal corporation for cleaning streets",annotator_2,positive,non-toxic,false,false,2026-03-01 11:18:00
+gold_015,"Kuchh bhi bolo par delivery partner ka behavior bohot rude tha",annotator_2,negative,non-toxic,false,false,2026-03-01 11:19:00
+gold_016,"Wah kya governance hai, road pe gaddhe hain ya gaddho mein road!",annotator_2,negative,non-toxic,true,false,2026-03-01 11:20:00
+gold_017,"Online classes schedule has been uploaded on university portal",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:21:00
+gold_018,"Ek number comedy show tha bhai, pet dard ho gaya has has ke",annotator_2,positive,non-toxic,false,false,2026-03-01 11:22:00
+gold_019,"Don't spread fake news without verifying sources please",annotator_2,negative,non-toxic,false,false,2026-03-01 11:23:00
+gold_020,"Tu toh har jagah apni naak ghusedta hai idiot",annotator_2,negative,toxic,false,false,2026-03-01 11:24:00
+gold_021,"खूपच सुंदर चित्रपट आहे, सर्वांनी आवर्जून पाहावा! #मराठी",annotator_2,positive,non-toxic,false,false,2026-03-01 11:25:00
+gold_022,"हे सरकार पूर्णपणे अपयशी ठरले आहे, जनतेची लूट चालू आहे",annotator_2,negative,non-toxic,false,false,2026-03-01 11:26:00
+gold_023,"आज दुपारी ३ वाजता पत्रकार परिषद होणार आहे.",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:27:00
+gold_024,"Kharach khup chan movie ahe, saglyani baghitle pahije!",annotator_2,positive,non-toxic,false,false,2026-03-01 11:28:00
+gold_025,"Kay faltupana chalavla ahe ya lokanni, kiti tras dila normal public la",annotator_2,negative,non-toxic,false,false,2026-03-01 11:29:00
+gold_026,"Punyatil havaman aj khup thand ahe",annotator_2,neutral,non-toxic,false,false,2026-03-01 11:30:00
+gold_027,"छान व्यवस्था केली आहे प्रशासनाने, धन्यवाद!",annotator_2,positive,non-toxic,false,false,2026-03-01 11:31:00
+gold_028,"रस्त्यांची इतकी दुरवस्था कधी पाहिली नव्हती, भयानक खड्डे आहेत",annotator_2,negative,non-toxic,false,false,2026-03-01 11:32:00
+gold_029,"Superb काम केलं आहे @team, proud of you all!",annotator_2,positive,non-toxic,false,true,2026-03-01 11:33:00
+gold_030,"हे totally unexpected होतं यार, mind blown!",annotator_2,positive,non-toxic,false,true,2026-03-01 11:34:00

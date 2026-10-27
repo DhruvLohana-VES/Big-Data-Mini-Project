@@ -1,0 +1,11 @@
+uid,utterance,sentiment_gold,sentiment_pred
+gc_001,"Ye movie itni boring thi ki interval mein hi so gaya",negative,negative
+gc_002,"Best chai point near MG Road! Kya mast taste hai",positive,positive
+gc_003,"Meeting postponed to tomorrow 11 AM due to heavy rain",neutral,neutral
+gc_004,"Wah bhai, kya badhiya service di! 4 ghante baad delivery aayi",negative,positive
+gc_005,"Loved the sound track and background score, goosebumps!",positive,positive
+gc_006,"Total scam website, dont order anything from here",negative,negative
+gc_007,"New library books have arrived for computer science dept",neutral,neutral
+gc_008,"Bhai tu toh hero hai yaar, zabardast batting!",positive,positive
+gc_009,"Customer support number is perpetually busy and unreachable",negative,negative
+gc_010,"Tomorrow is national holiday on account of festival",neutral,neutral

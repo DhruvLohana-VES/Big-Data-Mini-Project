@@ -1,0 +1,51 @@
+id,text,language,script,sentiment,toxicity,sarcasm,source,is_code_mixed
+gold_001,"Bhai ye movie kya mast banayi hai superb direction #Bollywood",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_002,"Arre yaar service bohot ghatiya hai, total waste of money and time",hinglish,roman,negative,non-toxic,false,sentimix,true
+gold_003,"Today Indian cricket team match is scheduled at 7 PM IST",english,roman,neutral,non-toxic,false,twitter,false
+gold_004,"Wah bhai wah, 3 ghante late flight aur bolte hain technical delay! Shabaash airlines!",hinglish,roman,negative,non-toxic,true,sentimix,true
+gold_005,"Yeh product quality toh expected se bhi achhi nikli, loved it!",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_006,"Tum jaise logon ko toh seedha ban karna chahiye social media se bloody losers",hinglish,roman,negative,toxic,false,hasoc,true
+gold_007,"Bohot hard performance diya aaj stage pe brother! Full power",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_008,"Metro construction ki wajah se pura traffic jam ho gaya hai morning mein",hinglish,roman,neutral,non-toxic,false,twitter,true
+gold_009,"Kya baat hai, itna ganda khana delivery kiya aur refund bhi nahi de rahe",hinglish,roman,negative,non-toxic,false,sentimix,true
+gold_010,"Super excited for the new college fest! Sab log zarur aana",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_011,"Abey chup kar pagal, kisi ko teri faltu advice ki zarurat nahi hai",hinglish,roman,negative,toxic,false,hasoc,true
+gold_012,"Weather is quite cloudy today in Pune, might rain in evening",english,roman,neutral,non-toxic,false,twitter,false
+gold_013,"Yeh naya update bohot smooth chal raha hai phone pe",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_014,"Great initiative by municipal corporation for cleaning streets",english,roman,positive,non-toxic,false,twitter,false
+gold_015,"Kuchh bhi bolo par delivery partner ka behavior bohot rude tha",hinglish,roman,negative,non-toxic,false,sentimix,true
+gold_016,"Wah kya governance hai, road pe gaddhe hain ya gaddho mein road!",hinglish,roman,negative,non-toxic,true,sentimix,true
+gold_017,"Online classes schedule has been uploaded on university portal",english,roman,neutral,non-toxic,false,twitter,false
+gold_018,"Ek number comedy show tha bhai, pet dard ho gaya has has ke",hinglish,roman,positive,non-toxic,false,sentimix,true
+gold_019,"Don't spread fake news without verifying sources please",english,roman,neutral,non-toxic,false,twitter,false
+gold_020,"Tu toh har jagah apni naak ghusedta hai idiot",hinglish,roman,negative,toxic,false,hasoc,true
+gold_021,"खूपच सुंदर चित्रपट आहे, सर्वांनी आवर्जून पाहावा! #मराठी",marathi,devanagari,positive,non-toxic,false,mahasent,false
+gold_022,"हे सरकार पूर्णपणे अपयशी ठरले आहे, जनतेची लूट चालू आहे",marathi,devanagari,negative,non-toxic,false,mahasent,false
+gold_023,"आज दुपारी ३ वाजता पत्रकार परिषद होणार आहे.",marathi,devanagari,neutral,non-toxic,false,mahasent,false
+gold_024,"Kharach khup chan movie ahe, saglyani baghitle pahije!",marathi,roman,positive,non-toxic,false,mahasent,true
+gold_025,"Kay faltupana chalavla ahe ya lokanni, kiti tras dila normal public la",marathi,roman,negative,non-toxic,false,mahasent,true
+gold_026,"Punyatil havaman aj khup thand ahe",marathi,roman,neutral,non-toxic,false,mahasent,true
+gold_027,"छान व्यवस्था केली आहे प्रशासनाने, धन्यवाद!",marathi,devanagari,positive,non-toxic,false,mahasent,false
+gold_028,"रस्त्यांची इतकी दुरवस्था कधी पाहिली नव्हती, भयानक खड्डे आहेत",marathi,devanagari,negative,non-toxic,false,mahasent,false
+gold_029,"Superb काम केलं आहे @team, proud of you all!",marathi,mixed,positive,non-toxic,false,mahasent,true
+gold_030,"हे totally unexpected होतं यार, mind blown!",marathi,mixed,positive,non-toxic,false,mahasent,true
+gold_031,"काय चाललंय काय देशात, काहीच समजत नाहीये",marathi,devanagari,negative,non-toxic,false,mahasent,false
+gold_032,"Metro che navin route lavkarch chalu honar ahet",marathi,roman,neutral,non-toxic,false,mahasent,true
+gold_033,"Ekdam kadak performance bhava, asach pudhe jaa!",marathi,roman,positive,non-toxic,false,mahasent,true
+gold_034,"Yanchi aukaat nahi ahe he handle karaychi ghatiya lok",marathi,roman,negative,toxic,false,hasoc,true
+gold_035,"अभियांत्रिकी महाविद्यालयातील प्रवेश प्रक्रिया सुरू झाली आहे.",marathi,devanagari,neutral,non-toxic,false,mahasent,false
+gold_036,"Wah re wah, 2 taas light geli aani he bill pathavtat!",marathi,roman,negative,non-toxic,true,mahasent,true
+gold_037,"खूप छान वाटले आज जुन्या मित्रांना भेटून",marathi,devanagari,positive,non-toxic,false,mahasent,false
+gold_038,"हॉटेलमधील जेवण खूप चवदार होते, नक्की भेट द्या",marathi,devanagari,positive,non-toxic,false,mahasent,false
+gold_039,"Tula kahi akkal nahiye ka bolaychi, murkha sarkha vaagto",marathi,roman,negative,toxic,false,hasoc,true
+gold_040,"Bus che timing badalle ahet navin schedule check kara",marathi,roman,neutral,non-toxic,false,mahasent,true
+gold_041,"Kya smart policy hai, petrol price 110 kar diya aur bolte hain acche din!",hinglish,roman,negative,non-toxic,true,sentimix,true
+gold_042,"Tumhara dimag sarr gaya hai saale kutte",hinglish,roman,negative,toxic,false,hasoc,true
+gold_043,"Loved the new UI update, navigation is super intuitive now",english,roman,positive,non-toxic,false,twitter,false
+gold_044,"Arey bhau tula salute ahe, kay mast batting kelis kal match madhe!",marathi,roman,positive,non-toxic,false,mahasent,true
+gold_045,"Conference registration deadline is extended till Friday",english,roman,neutral,non-toxic,false,twitter,false
+gold_046,"Aukaat madhe raha nahi tar samor yeun dakhvto",marathi,roman,negative,toxic,false,hasoc,true
+gold_047,"Sundar sakal, have a blessed day everyone #Maharashtra",marathi,mixed,positive,non-toxic,false,twitter,true
+gold_048,"Kya timing hai train ki, sirf 5 ghanta late!",hinglish,roman,negative,non-toxic,true,sentimix,true
+gold_049,"Khup g घाणेरडा स्वभाव आहे तुझा, सुधर जरा",marathi,mixed,negative,toxic,false,hasoc,true
+gold_050,"Final exam result announcement will be made tomorrow at 10 AM",english,roman,neutral,non-toxic,false,twitter,false

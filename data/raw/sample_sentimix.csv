@@ -1,0 +1,21 @@
+tweet_id,tweet_text,label,language_tag
+sm_001,"Bhai ye movie kya mast banayi hai superb direction #Bollywood",positive,Hindi-English
+sm_002,"Arre yaar service bohot ghatiya hai, total waste of money and time",negative,Hindi-English
+sm_003,"Today Indian cricket team match is scheduled at 7 PM IST",neutral,English
+sm_004,"Wah bhai wah, 3 ghante late flight aur bolte hain technical delay! Shabaash airlines!",negative,Hindi-English
+sm_005,"Yeh product quality toh expected se bhi achhi nikli, loved it!",positive,Hindi-English
+sm_006,"Tum jaise logon ko toh seedha ban karna chahiye social media se bloody losers",negative,Hindi-English
+sm_007,"Bohot hard performance diya aaj stage pe brother! Full power",positive,Hindi-English
+sm_008,"Metro construction ki wajah se pura traffic jam ho gaya hai morning mein",neutral,Hindi-English
+sm_009,"Kya baat hai, itna ganda khana delivery kiya aur refund bhi nahi de rahe",negative,Hindi-English
+sm_010,"Super excited for the new college fest! Sab log zarur aana",positive,Hindi-English
+sm_011,"Abey chup kar pagal, kisi ko teri faltu advice ki zarurat nahi hai",negative,Hindi-English
+sm_012,"Weather is quite cloudy today in Pune, might rain in evening",neutral,English
+sm_013,"Yeh naya update bohot smooth chal raha hai phone pe",positive,Hindi-English
+sm_014,"Great initiative by municipal corporation for cleaning streets",positive,English
+sm_015,"Kuchh bhi bolo par delivery partner ka behavior bohot rude tha",negative,Hindi-English
+sm_016,"Wah kya governance hai, road pe gaddhe hain ya gaddho mein road!",negative,Hindi-English
+sm_017,"Online classes schedule has been uploaded on university portal",neutral,English
+sm_018,"Ek number comedy show tha bhai, pet dard ho gaya has has ke",positive,Hindi-English
+sm_019,"Don't spread fake news without verifying sources please",neutral,English
+sm_020,"Tu toh har jagah apni naak ghusedta hai idiot",negative,Hindi-English

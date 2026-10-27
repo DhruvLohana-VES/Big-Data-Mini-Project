@@ -1,0 +1,31 @@
+{
+  "total_records": 75,
+  "sources": {
+    "sentimix": 22,
+    "mahasent": 21,
+    "hasoc": 18,
+    "gluecos": 10,
+    "twitter": 4
+  },
+  "languages": {
+    "hinglish": 48,
+    "marathi": 24,
+    "english": 3
+  },
+  "scripts": {
+    "roman": 62,
+    "devanagari": 9,
+    "mixed": 4
+  },
+  "sentiments": {
+    "negative": 32,
+    "positive": 22,
+    "neutral": 21
+  },
+  "toxicities": {
+    "non-toxic": 63,
+    "toxic": 12
+  },
+  "code_mixed_count": 63,
+  "sarcastic_count": 5
+}

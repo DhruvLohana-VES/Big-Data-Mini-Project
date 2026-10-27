@@ -1,0 +1,136 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Project: Code-Mixed Hinglish & Marathi Social Text Analytics with LLM Annotation
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Environment Variables & Secrets (CRITICAL)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+secrets.toml
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------------------------
+# 2. Python Bytecode, Caches & Distribution
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ------------------------------------------------------------------------------
+# 3. Virtual Environments
+# ------------------------------------------------------------------------------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+conda/
+
+# ------------------------------------------------------------------------------
+# 4. Jupyter Notebooks & Auto-saves
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# ------------------------------------------------------------------------------
+# 5. Distributed PySpark, Hadoop & Derby Artifacts
+# ------------------------------------------------------------------------------
+metastore_db/
+derby.log
+spark-warehouse/
+checkpoint/
+checkpoints/
+*.crc
+_SUCCESS
+_temporary/
+
+# ------------------------------------------------------------------------------
+# 6. Model Weights, Checkpoints & ML Tracking
+# ------------------------------------------------------------------------------
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+models/checkpoints/
+models/saved/
+wandb/
+mlruns/
+.huggingface/
+huggingface_cache/
+
+# ------------------------------------------------------------------------------
+# 7. LLM Runtime Caches & Raw API Call Stream Dumps
+# (Retains benchmark CSVs and evaluation sets while ignoring raw API dumps)
+# ------------------------------------------------------------------------------
+data/llm_annotations/*.jsonl
+data/llm_annotations/*.json
+!data/llm_annotations/.gitkeep
+
+# ------------------------------------------------------------------------------
+# 8. Testing, Linting & Coverage
+# ------------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# ------------------------------------------------------------------------------
+# 9. Operating System & Local Editor Artifacts
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 10. Logs & Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/

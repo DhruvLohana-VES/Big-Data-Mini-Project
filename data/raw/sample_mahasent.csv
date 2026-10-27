@@ -1,0 +1,21 @@
+post_id,post_content,sentiment_tag,script_type
+ms_001,"खूपच सुंदर चित्रपट आहे, सर्वांनी आवर्जून पाहावा! #मराठी",positive,devanagari
+ms_002,"हे सरकार पूर्णपणे अपयशी ठरले आहे, जनतेची लूट चालू आहे",negative,devanagari
+ms_003,"आज दुपारी ३ वाजता पत्रकार परिषद होणार आहे.",neutral,devanagari
+ms_004,"Kharach khup chan movie ahe, saglyani baghitle pahije!",positive,roman
+ms_005,"Kay faltupana chalavla ahe ya lokanni, kiti tras dila normal public la",negative,roman
+ms_006,"Punyatil havaman aj khup thand ahe",neutral,roman
+ms_007,"छान व्यवस्था केली आहे प्रशासनाने, धन्यवाद!",positive,devanagari
+ms_008,"रस्त्यांची इतकी दुरवस्था कधी पाहिली नव्हती, भयानक खड्डे आहेत",negative,devanagari
+ms_009,"Superb काम केलं आहे @team, proud of you all!",positive,mixed
+ms_010,"हे totally unexpected होतं यार, mind blown!",positive,mixed
+ms_011,"काय चाललंय काय देशात, काहीच समजत नाहीये",negative,devanagari
+ms_012,"Metro che navin route lavkarch chalu honar ahet",neutral,roman
+ms_013,"Ekdam kadak performance bhava, asach pudhe jaa!",positive,roman
+ms_014,"Yanchi aukaat nahi ahe he handle karaychi ghatiya lok",negative,roman
+ms_015,"अभियांत्रिकी महाविद्यालयातील प्रवेश प्रक्रिया सुरू झाली आहे.",neutral,devanagari
+ms_016,"Wah re wah, 2 taas light geli aani he bill pathavtat!",negative,roman
+ms_017,"खूप छान वाटले आज जुन्या मित्रांना भेटून",positive,devanagari
+ms_018,"हॉटेलमधील जेवण खूप चवदार होते, नक्की भेट द्या",positive,devanagari
+ms_019,"Tula kahi akkal nahiye ka bolaychi, murkha sarkha vaagto",negative,roman
+ms_020,"Bus che timing badalle ahet navin schedule check kara",neutral,roman

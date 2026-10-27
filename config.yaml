@@ -1,0 +1,116 @@
+project:
+  name: "Code-Mixed Hinglish and Marathi Social Text Analytics with LLM-Assisted Annotation"
+  version: "1.0.0"
+  subject: "Big Data and Social Media Analytics"
+  description: "End-to-end distributed Big Data and Indic NLP pipeline evaluating LLM annotations against Human Gold benchmarks for Hinglish and Marathi social media texts."
+
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  gold_data_dir: "data/gold"
+  llm_annotations_dir: "data/llm_annotations"
+  results_dir: "results"
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"
+  models_dir: "results/models"
+  cache_file: "data/llm_annotations/llm_cache.json"
+
+spark:
+  app_name: "CodeMixedSocialAnalytics"
+  master: "local[*]"
+  driver_memory: "2g"
+  log_level: "WARN"
+  shuffle_partitions: 4
+
+data_schema:
+  unified_columns:
+    - id
+    - text
+    - language
+    - script
+    - sentiment
+    - toxicity
+    - sarcasm
+    - source
+    - is_code_mixed
+
+supported_datasets:
+  - sentimix
+  - mahasent
+  - hasoc
+  - gluecos
+  - gold_custom
+
+taxonomy:
+  languages:
+    - hinglish
+    - marathi
+    - hindi
+    - english
+  scripts:
+    - roman
+    - devanagari
+    - mixed
+  sentiment_labels:
+    - positive
+    - negative
+    - neutral
+  toxicity_labels:
+    - non-toxic
+    - toxic
+
+llm_settings:
+  default_provider: "gemini"
+  gemini:
+    model: "gemini-3.8-flash"
+    temperature: 0.1
+    max_output_tokens: 512
+  openai:
+    model: "gpt-4o-mini"
+    temperature: 0.1
+    max_tokens: 512
+  strategies:
+    - zero_shot
+    - few_shot
+    - reasoning_aware
+  batch_size: 10
+  rate_limit_pause: 1.0
+  max_retries: 3
+  max_samples: 50
+  cache_enabled: true
+  pricing:
+    gemini_1_5_flash:
+      input_per_1m: 0.075
+      output_per_1m: 0.30
+
+models:
+  baseline_models:
+    - tfidf_logistic_regression
+    - tfidf_svm
+  transformer_models:
+    - google/muril-base-cased
+    - ai4bharat/indic-bert
+    - xlm-roberta-base
+  training_regimes:
+    - gold_only
+    - llm_only
+    - mixed
+  training_params:
+    max_seq_length: 128
+    batch_size: 8
+    learning_rate: 2.0e-5
+    num_epochs_demo: 2
+    num_epochs_full: 4
+    warmup_ratio: 0.1
+    weight_decay: 0.01
+
+calibration:
+  num_bins: 10
+  confidence_thresholds: [0.5, 0.6, 0.7, 0.8, 0.9]
+
+cost_simulation:
+  human_cost_per_annotation_usd: 0.05
+  human_time_per_annotation_sec: 25.0
+  llm_cost_per_1k_tokens_usd: 0.00015
+  avg_tokens_per_prompt: 450
+  sample_sizes: [0.10, 0.25, 0.50, 0.75, 1.00]
